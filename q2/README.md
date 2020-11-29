@@ -1,14 +1,18 @@
 REPORT FOR Q2.	
 
 Assumptions:
-	1. A student can have their antibodies test right after being vaccinated.
-	2. Busy waiting is allowed for this question.
-	3. Any company can supply any zone and each company can reset the no. of batches and the batchsize for that particular round of manufacturing.
+- A student can have their antibodies test right after being vaccinated.
+- Busy waiting is allowed for this question.
+- Any company can supply any zone and each company can reset the no. of batches and the batchsize for that particular round of manufacturing.
 
-Logic:
+Logic:-
+
 	1. The bases of my logic are two things:-
+	
 		a) Use mutex lock to control CS access.
+		
 		b) Busy wait at any place where a certain condition has to be met before moving further.
+		
 	
 	2. The flow of the program is:-
 		
