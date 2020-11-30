@@ -1,6 +1,7 @@
 REPORT FOR Q3.
 
 Assumptions:-
+
 	1. We can use 2 threads for a singer musician and singer.
 	2. Optimization of any sort is not required.
 
